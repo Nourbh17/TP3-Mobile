@@ -80,9 +80,7 @@ class MainActivity : AppCompatActivity(), ActionMode.Callback {
                     ContextCompat.getColor(
                         this@MainActivity, R.color.yellow
                     )
-                    /*resources.getColor(
-                        R.color.teal_200
-                    )*/
+
                 )
                 actionMode?.finish()
                 true
